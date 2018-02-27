@@ -1,0 +1,30 @@
+#display {
+	position: fixed;
+	left: 0px;
+	top:0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("bg.jpg");
+	z-index: -1;
+}
+
+#snow, .snows {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 50px;
+	position: absolute;
+	left: 0px;
+	top: -10%;
+	transition: top 5s;
+
+}
+
+#ground {
+	background-color: #FFF;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100vw;
+	height: 0%;
+}
